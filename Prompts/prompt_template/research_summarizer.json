@@ -1,0 +1,17 @@
+{
+    "name": null,
+    "input_variables": [
+        "length_input",
+        "paper_input",
+        "style_input"
+    ],
+    "optional_variables": [],
+    "output_parser": null,
+    "partial_variables": {},
+    "metadata": null,
+    "tags": null,
+    "template": "You are an expert in summarizing research papers. Please provide a {length_input} summary of the paper '{paper_input}' in a {style_input} style.",
+    "template_format": "f-string",
+    "validate_template": true,
+    "_type": "prompt"
+}

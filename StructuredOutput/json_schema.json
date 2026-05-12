@@ -1,0 +1,36 @@
+{
+  "title": "Review",
+  "description": "A structured representation of a restaurant review.",
+  "type": "object",
+  "properties": {
+    "food": {
+      "type": "string",
+      "description": "The food quality"
+    },
+    "service": {
+      "type": "string",
+      "description": "The service quality"
+    },  
+    "rating": {
+      "type": "integer",
+      "description": "The overall rating"
+    },
+    "sentiment": {
+      "type": "string",
+      "description": "The sentiment of the review",
+      "enum": ["positive", "neutral", "negative"]
+    },
+    "summary": {
+      "type": "string",
+      "description": "A brief summary of the review"
+    },
+    "key_themes": {
+      "type": "array",
+      "description": "The key themes mentioned in the review",
+      "items": {
+        "type": "string"
+      }
+    }
+  },
+  "required": ["food", "service", "rating", "sentiment", "summary", "key_themes"]
+}
