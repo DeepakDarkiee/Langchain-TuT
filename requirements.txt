@@ -33,3 +33,4 @@ scikit-learn
 sentence-transformers
 
 streamlit
+grandalf
